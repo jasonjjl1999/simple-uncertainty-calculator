@@ -9,7 +9,7 @@ from sympy import *
 
 # outputs:
 # f is the function evaluated with the given inputs.
-# sum_of_partials ** 0.5 gives the associated uncertainty/
+# sum_of_partials ** 0.5 gives the associated uncertainty.
 
 def uncertainty(var_list, val_list, err_list, f):
     sum_of_partials = 0
