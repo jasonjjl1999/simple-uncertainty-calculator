@@ -10,4 +10,4 @@ The function takes the following inputs:
 
 The function returns a length 2 list where the first element is the result of the calculation and the second element is the uncertainty.
 
-Please check <filler> for usage examples.
+Please check "uncertainty.ipynb" for usage examples.
