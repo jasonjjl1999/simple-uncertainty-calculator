@@ -4,7 +4,7 @@
 This is a python function for finding uncertainty propagation using SymPy.
 The function takes the following inputs:
 
-uncertainty(var_list, val_list, err_list, f)
+uncertainty(var_list, val_list, err_list, f):
 - "var_list" is a list of the symbolic variables declared by the user.
 - "val_list" is a list of the values corresponding to the respective variable.
 - "err_list" is a list of the uncertainties associated with each value.
