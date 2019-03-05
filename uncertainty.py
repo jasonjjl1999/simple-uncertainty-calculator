@@ -1,6 +1,5 @@
 from sympy import *
 
-
 # inputs:
 # var_list is a list of the symbolic variables declared by the user.
 # val_list is a list of the values corresponding to the respective variable.
