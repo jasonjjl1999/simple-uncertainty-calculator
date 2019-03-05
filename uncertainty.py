@@ -16,7 +16,7 @@ def uncertainty(var_list, val_list, err_list, f):
         f_partial = (diff(f, var_list[i]))
         for j in range(0, len(var_list)):
             f_partial = f_partial.subs(var_list[j], val_list[j])
-        sum_of_partials = sum_of_partials + (f_partial * err_list[i]) ** 2  # sum is the uncertainty of the solution
+        sum_of_partials = sum_of_partials + (f_partial * err_list[i]) ** 2 
 
     # Evaluate the original function
     for i in range(0, len(var_list)):
