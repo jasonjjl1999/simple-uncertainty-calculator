@@ -1,7 +1,7 @@
 # Simple Uncertainty Calculator
 
 ## uncertainty.py
-This is a python function for finding uncertainty propagation using SymPy.
+This is a Python function for finding uncertainty propagation using SymPy.
 The function takes the following inputs:
 
 uncertainty(var_list, val_list, err_list, f):
