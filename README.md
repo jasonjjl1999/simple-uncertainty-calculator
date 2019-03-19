@@ -37,4 +37,10 @@ linearPlot(x_val, x_err, y_val, y_err, title, x_label, y_label):
 
 linearPlot.py prints the slope and y-intercept of the linear fit between the data, along with associated uncertainties. It also returns the reduced chi-squared value for goodness of fit.
 
-Furthermore, linearPlot.py plots the data as scatter points and the best linear fit, complete with error bars. Finally, the residual plot of the deviation to the linear fit is shown.
+Furthermore, linearPlot.py plots the data as scatter points and the best linear fit, complete with error bars. Finally, the residual plot of the deviation to the linear fit is shown. These two graphs can be shown by using the plt.show() function from matplotlib:
+
+```python
+plt.show()
+```
+
+Please check "linearPlot.py" for usage examples.
