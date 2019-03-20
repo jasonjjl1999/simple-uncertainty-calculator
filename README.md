@@ -43,4 +43,4 @@ Furthermore, linearPlot.py plots the data as scatter points and the best linear 
 plt.show()
 ```
 
-Please check "linearPlot.py" for usage examples.
+Please check "linearPlot.ipynb" for usage examples.
